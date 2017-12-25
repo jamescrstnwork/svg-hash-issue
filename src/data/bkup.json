@@ -1,0 +1,122 @@
+{
+  "auth": {
+    "email": "totalo@gmail.com",
+    "password": "testtest"
+  },
+  "users": [
+    {
+      "id": 1,
+      "email": "jameschristian.totalo@gmail.com",
+      "name": "James Christian",
+      "roles": "SUPERUSER",
+      "created_at": "Mon Jul 25 2016 16:31:45 GMT+0800 (CST)"
+    },
+    {
+      "id": 2,
+      "email": "jagdishgadhiya.totalo@gmail.com",
+      "name": "Jagdish Gadhiya",
+      "roles": "SUPERUSER",
+      "created_at": "Mon Oct 10 2016 08:00:00 GMT+0800 (CST)"
+    },
+    {
+      "id": 3,
+      "email": "abcdef1.totalo@gmail.com",
+      "name": "ABC DEF",
+      "roles": "ADMIN",
+      "created_at": "Mon Oct 10 2016 08:00:00 GMT+0800 (CST)"
+    },
+    {
+      "id": 4,
+      "email": "jklmno1.totalo@gmail.com",
+      "name": "JKL MNO",
+      "roles": "ADMIN",
+      "created_at": "Mon Oct 10 2016 08:00:00 GMT+0800 (CST)"
+    }
+  ],
+  "menus": {
+    "data": [
+      {
+        "id": "0",
+        "path": "dashboard",
+        "title": "Dashboard",
+        "icon": "appstore",
+        "default": "selected"
+      },
+      {
+        "id": "1",
+        "path": "users",
+        "title": "Users",
+        "icon": "user"
+      },
+      {
+        "id": "2",
+        "path": "accounts",
+        "title": "Accounts",
+        "icon": "book"
+      },
+      {
+        "id": "3",
+        "path": "payments",
+        "title": "Payments",
+        "icon": "inbox"
+      },
+      {
+        "id": "4",
+        "path": "purchase",
+        "title": "Purchase",
+        "icon": "credit-card"
+      },
+      {
+        "id": "5",
+        "path": "sells",
+        "title": "Sells",
+        "icon": "shop"
+      },
+      {
+        "id": "6",
+        "path": "misc",
+        "title": "Misc.",
+        "icon": "folder"
+      },
+      {
+        "id": "7",
+        "path": "reports",
+        "title": "Reports",
+        "icon": "file-pdf"
+      }
+    ]
+  },
+  "accounts": [
+    {
+      "id": 1,
+      "name": "James Christian",
+      "address": "C.T.M., Ahmedabad"
+    },
+    {
+      "id": 2,
+      "name": "Jeackwelin Christian",
+      "address": "Anand, Gujarat"
+    },
+    {
+      "id": 3,
+      "name": "Joy Christian",
+      "address": "C.T.M., Ahmedabad"
+    },
+    {
+      "id": 4,
+      "name": "Raizel Shah",
+      "address": "Anand, Gujarat"
+    },
+    {
+      "id": 5,
+      "name": "Jerren Christian",
+      "address": "C.T.M., Ahmedabad"
+    }
+  ],
+  "persons": [
+    {"id": 0}
+  ],
+  "parties": [
+    {"id": 0}    
+  ]
+}

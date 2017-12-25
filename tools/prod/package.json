@@ -1,0 +1,14 @@
+{
+  "name": "totalo-mobile-erp",
+  "version": "0.1.1",
+  "description": "Totalo Accounting Application",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "history": "4.7.2",
+    "express": "4.16.2",
+    "compression": "1.7.1",
+    "connect-history-api-fallback": "1.3.0"
+  }
+}

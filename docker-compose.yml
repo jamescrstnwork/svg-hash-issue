@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  view-m-erp:
+    image: "${DOCKER_IMAGE_NAME}"
+    environment:
+      - NODE_ENV=production
+    networks:
+      totalo:
+        aliases:
+        - "${DOCKER_SERVICE_NAME}"
+    ports:
+    - "${WEB_PORT}:3000"
+    logging:
+      driver: json-file
+    deploy:
+      replicas: 1
+      update_config:
+        parallelism: 2
+        delay: 10s
+      resources:
+        limits:
+          memory: 400M
+        reservations:
+          memory: 80M
+      restart_policy:
+        condition: any
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+
+networks:
+  totalo:
